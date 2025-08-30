@@ -89,7 +89,11 @@
                                     @foreach($product->variants as $variant)
                                         <div class="input-group mb-2">
                                             <input type="text" name="variants[]" class="form-control" 
+<<<<<<< HEAD
                                                    value="{{ $variant }}" placeholder="e.g. 30ml, XXL">
+=======
+                                                   value="{{ $variant }}" placeholder="e.g. 30ml, XXL" required>
+>>>>>>> origin/main
                                             <button type="button" class="btn btn-outline-danger" onclick="removeVariant(this)">Remove</button>
                                         </div>
                                     @endforeach

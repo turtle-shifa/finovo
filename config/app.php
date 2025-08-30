@@ -69,7 +69,7 @@ return [
     |
     */
 
-    'timezone' => 'Asia/Dhaka',
+    'timezone' => 'UTC',
 
     /*
     |--------------------------------------------------------------------------
@@ -122,8 +122,6 @@ return [
     */
 
     'key' => env('APP_KEY'),
-
-    
 
     'cipher' => 'AES-256-CBC',
 
@@ -214,6 +212,6 @@ return [
         // 'ExampleClass' => App\Example\ExampleClass::class,
     ])->toArray(),
 
-    
-
 ];
+
+?>

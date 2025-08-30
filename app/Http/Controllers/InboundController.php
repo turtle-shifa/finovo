@@ -23,6 +23,9 @@ class InboundController extends Controller
 
         $categories = Category::where('company_id', $companyID)->with('products')->get();
 
+        $categories = Category::with('products')->get();
+
+
         $selectedCategory = $request->get('category_id');
         $products = $selectedCategory ? Product::where('category_id', $selectedCategory)->where('is_active',true)->get() : collect();
 

@@ -128,7 +128,6 @@
             Generate Invoice
         </a>
 
-
         <a href="{{ url('/transactions') }}" class="nav-link {{ request()->is('transactions') ? 'active text-success' : '' }}">
             Transactions
         </a>

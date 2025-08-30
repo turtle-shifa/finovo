@@ -119,19 +119,30 @@
                 <table class="table table-bordered">
                     <thead>
                         <tr>
+<<<<<<< HEAD
                             <th>Product Name</th>
                             <th>Batch</th>
                             <th>Variant</th>
                             <th>Quantity</th>
                             <th>Purchase PPU</th>
                             <th>Selling PPU</th>
+=======
+                            <th>Batch Number</th>
+                            <th>Variant</th>
+                            <th>Quantity</th>
+                            <th>Purchase Price per Unit</th>
+                            <th>Selling Price per Unit</th>
+>>>>>>> origin/main
                             <th>Purchase Date</th>
                         </tr>
                     </thead>
                     <tbody>
                         @foreach($allStocks as $stock)
                         <tr>
+<<<<<<< HEAD
                             <td>{{ $stock->product->name }}</td>
+=======
+>>>>>>> origin/main
                             <td>{{ $stock->batch_number }}</td>
                             <td>{{ $stock->variant ?? '-' }}</td>
                             <td>{{ $stock->quantity }}</td>

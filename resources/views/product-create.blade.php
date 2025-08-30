@@ -42,6 +42,7 @@
 
                 <!-- Product Form -->
                 <div class="p-4">
+<<<<<<< HEAD
 
                     {{-- Display error message from controller --}}
                     @if(session('error'))
@@ -69,6 +70,9 @@
                     @endif
 
                     <form  method="POST" enctype="multipart/form-data" action="/product-create">
+=======
+                    <form  method="POST" enctype="multipart/form-data">
+>>>>>>> origin/main
                         @csrf
 
                         <!-- Product Name -->
